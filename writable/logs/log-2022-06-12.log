@@ -1,0 +1,9 @@
+CRITICAL - 2022-06-12 23:30:15 --> Invalid file: estudiantes.php
+#0 C:\xampp\htdocs\aep\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('estudiantes.php')
+#1 C:\xampp\htdocs\aep\system\Common.php(1089): CodeIgniter\View\View->render('estudiantes', Array, true)
+#2 C:\xampp\htdocs\aep\app\Controllers\estudiante.php(9): view('estudiantes')
+#3 C:\xampp\htdocs\aep\system\CodeIgniter.php(832): App\Controllers\Estudiante->index()
+#4 C:\xampp\htdocs\aep\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#5 C:\xampp\htdocs\aep\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\aep\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

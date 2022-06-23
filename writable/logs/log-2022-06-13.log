@@ -1,0 +1,100 @@
+CRITICAL - 2022-06-13 00:06:19 --> Undefined variable $datos1
+#0 C:\xampp\htdocs\aep\app\Views\estudiantes.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\aep\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\aep\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\aep\system\Common.php(1089): CodeIgniter\View\View->render('estudiantes', Array, true)
+#4 C:\xampp\htdocs\aep\app\Controllers\estudiante.php(10): view('estudiantes', Array)
+#5 C:\xampp\htdocs\aep\system\CodeIgniter.php(832): App\Controllers\Estudiante->index()
+#6 C:\xampp\htdocs\aep\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#7 C:\xampp\htdocs\aep\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aep\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 00:07:26 --> Undefined variable $datos1
+#0 C:\xampp\htdocs\aep\app\Views\estudiantes.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\aep\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\aep\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\aep\system\Common.php(1089): CodeIgniter\View\View->render('estudiantes', Array, true)
+#4 C:\xampp\htdocs\aep\app\Controllers\estudiante.php(10): view('estudiantes', Array)
+#5 C:\xampp\htdocs\aep\system\CodeIgniter.php(832): App\Controllers\Estudiante->index()
+#6 C:\xampp\htdocs\aep\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#7 C:\xampp\htdocs\aep\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aep\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 00:08:13 --> Undefined variable $datos1
+#0 C:\xampp\htdocs\aep\app\Views\estudiantes.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\aep\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\aep\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\aep\system\Common.php(1089): CodeIgniter\View\View->render('estudiantes', Array, true)
+#4 C:\xampp\htdocs\aep\app\Controllers\estudiante.php(10): view('estudiantes', Array)
+#5 C:\xampp\htdocs\aep\system\CodeIgniter.php(832): App\Controllers\Estudiante->index()
+#6 C:\xampp\htdocs\aep\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#7 C:\xampp\htdocs\aep\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aep\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 00:08:15 --> Undefined variable $datos1
+#0 C:\xampp\htdocs\aep\app\Views\estudiantes.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\aep\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\aep\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\aep\system\Common.php(1089): CodeIgniter\View\View->render('estudiantes', Array, true)
+#4 C:\xampp\htdocs\aep\app\Controllers\estudiante.php(10): view('estudiantes', Array)
+#5 C:\xampp\htdocs\aep\system\CodeIgniter.php(832): App\Controllers\Estudiante->index()
+#6 C:\xampp\htdocs\aep\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#7 C:\xampp\htdocs\aep\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aep\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-13 19:27:12 --> Unknown column 'id' in 'order clause'
+CRITICAL - 2022-06-13 19:27:12 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\aep\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\aep\app\Controllers\estudiante.php(9): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\aep\system\CodeIgniter.php(832): App\Controllers\Estudiante->index()
+#3 C:\xampp\htdocs\aep\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#4 C:\xampp\htdocs\aep\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\aep\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-13 19:27:40 --> Array to string conversion
+#0 C:\xampp\htdocs\aep\app\Views\estudiantes.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\aep\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\aep\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\aep\system\Common.php(1089): CodeIgniter\View\View->render('estudiantes', Array, true)
+#4 C:\xampp\htdocs\aep\app\Controllers\estudiante.php(11): view('estudiantes', Array)
+#5 C:\xampp\htdocs\aep\system\CodeIgniter.php(832): App\Controllers\Estudiante->index()
+#6 C:\xampp\htdocs\aep\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#7 C:\xampp\htdocs\aep\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aep\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 19:28:41 --> Undefined array key "idestudiante"
+#0 C:\xampp\htdocs\aep\app\Views\estudiantes.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\aep\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\aep\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\aep\system\Common.php(1089): CodeIgniter\View\View->render('estudiantes', Array, true)
+#4 C:\xampp\htdocs\aep\app\Controllers\estudiante.php(11): view('estudiantes', Array)
+#5 C:\xampp\htdocs\aep\system\CodeIgniter.php(832): App\Controllers\Estudiante->index()
+#6 C:\xampp\htdocs\aep\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#7 C:\xampp\htdocs\aep\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aep\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 19:29:27 --> Undefined array key "nombres"
+#0 C:\xampp\htdocs\aep\app\Views\estudiantes.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\aep\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\aep\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\aep\system\Common.php(1089): CodeIgniter\View\View->render('estudiantes', Array, true)
+#4 C:\xampp\htdocs\aep\app\Controllers\estudiante.php(11): view('estudiantes', Array)
+#5 C:\xampp\htdocs\aep\system\CodeIgniter.php(832): App\Controllers\Estudiante->index()
+#6 C:\xampp\htdocs\aep\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#7 C:\xampp\htdocs\aep\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\aep\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-13 21:39:16 --> Undefined variable $data
+#0 C:\xampp\htdocs\aep\app\Controllers\estudiante.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\aep\system\CodeIgniter.php(832): App\Controllers\Estudiante->index()
+#2 C:\xampp\htdocs\aep\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#3 C:\xampp\htdocs\aep\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\aep\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 21:39:19 --> Undefined variable $data
+#0 C:\xampp\htdocs\aep\app\Controllers\estudiante.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\aep\system\CodeIgniter.php(832): App\Controllers\Estudiante->index()
+#2 C:\xampp\htdocs\aep\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Estudiante))
+#3 C:\xampp\htdocs\aep\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\aep\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
